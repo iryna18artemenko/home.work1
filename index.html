@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Пуста сторінка</title>
+    <title>Hello</title>
 </head>
 <body>
-    
+   
+    <script>
+        let userName1= prompt ("Hello! What`s your name?", 'John');
+        let userName2=confirm ("Hello,"  + userName1 + "!\nAre you feeling good?")
+        if (userName2==true) {
+            alert ("Great,"  + userName1 +  "!\nGlad to hear this!");
+         } else  if (userName2==false) {
+             alert ("Ough!\nIt's sad to hear that.\nHopefully, it won't be for long.");
+        }
+
+    </script>
 </body>
 </html>
